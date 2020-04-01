@@ -6,7 +6,7 @@ var swiper = new Swiper(".swiper-container", {
   spaceBetween: 0,
   mousewheel: true,
   autoplay: {
-    delay: 10000
+    delay: 4000
   },
   keyboard: true,
   loop: true
