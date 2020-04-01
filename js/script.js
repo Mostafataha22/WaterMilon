@@ -11,3 +11,14 @@ var swiper = new Swiper(".swiper-container", {
   keyboard: true,
   loop: true
 });
+
+// wow
+
+// new WOW().init();  
+
+// loading overlay
+
+$(document).ready(function(){
+  $('.loading-overlay').fadeOut(1000);
+});
+
