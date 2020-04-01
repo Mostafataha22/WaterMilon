@@ -1,0 +1,224 @@
+@font-face {
+  font-family: Pacifico-Regular;
+  src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald.ttf);
+}
+
+html,
+body {
+  position: relative;
+  height: 80%;
+  font-size: 20px;
+  color: #fff;
+  font-family: Oswald;
+}
+
+main {
+  background-image: url("../img/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.contain {
+  position: relative;
+}
+
+.navigation {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  color: #fff !important;
+}
+.hero-logo {
+  font-family: Pacifico-Regular;
+}
+
+.nav-link {
+  margin-left: 30px;
+}
+
+.hero-img {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.devention {
+  text-align: left;
+}
+
+.devention h2 {
+  font-family: Pacifico-Regular;
+  text-align: left;
+  padding-bottom: 20px;
+  font-size: 80px;
+}
+
+.devention p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.head-btn {
+  background-color: #333;
+  border-radius: 100px;
+  padding: 10px 20px;
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.head-btn:hover,
+.head-btn:active {
+  color: #c063ce;
+  text-decoration: none;
+}
+
+
+
+.icons {
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  height: 100%;
+}
+
+#fb {
+  position: fixed;
+  left: 10%;
+  bottom: 10%;
+  color: #fff;
+  font-size: 30px;
+  transition: all .5 ease;
+}
+
+#insa {
+  position: fixed;
+  left: 13%;
+  bottom: 10%;
+  color: #fff;
+  font-size: 30px;
+  transition: all .5 ease;
+  
+}
+
+#mail {
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  color: #fff;
+  font-size: 30px;
+  transition: all .5 ease;
+}
+
+#whats {
+  position: fixed;
+  right: 13%;
+  bottom: 10%;
+  color: #fff;
+  font-size: 30px;
+  transition: all .5 ease;
+  
+}
+
+#fb:hover{
+  color: #1877f2 ;
+}
+
+#insa:hover{
+  color: #c32aa3 ;
+}
+
+#mail:hover {
+  color: rgb(16, 85, 97) ;
+}
+
+#whats:hover {
+  color: #25d366;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .responsive {
+    display: flex;
+    justify-content: center;
+  }
+  .devention {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .devention h2 {
+    font-family: Pacifico-Regular;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+  }
+
+  .devention p {
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  #fb {
+    bottom: 5%;
+  }
+  
+  #insa {
+    bottom: 5%;
+    margin-left: 20px;
+  }
+  
+  #mail {
+    bottom: 5%;
+  }
+  
+  #whats {
+    bottom: 5%;
+    margin-right: 20px;
+  }
+}
