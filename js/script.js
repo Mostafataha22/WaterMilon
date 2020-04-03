@@ -1,3 +1,9 @@
+// loading overlay
+
+$(document).ready(function(){
+  $('.loading-overlay').fadeOut(1000);
+});
+
 // Swiper Slider
 
 var swiper = new Swiper(".swiper-container", {
@@ -14,11 +20,4 @@ var swiper = new Swiper(".swiper-container", {
 
 // wow
 
-// new WOW().init();  
-
-// loading overlay
-
-$(document).ready(function(){
-  $('.loading-overlay').fadeOut(1000);
-});
-
+new WOW().init();
